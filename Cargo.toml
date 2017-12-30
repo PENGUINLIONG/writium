@@ -2,6 +2,8 @@
 name = "writium"
 version = "0.1.0"
 authors = ["PENGUINLIONG <admin@penguinliong.moe>"]
+keywords = ["writium", "web"]
+categories = ["web-programming"]
 description = "Light-weight plug-in web framework for all variants of Hyper."
 license = "MIT"
 repository = "https://github.com/PENGUINLIONG/writium"
