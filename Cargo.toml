@@ -1,0 +1,16 @@
+[package]
+name = "writium"
+version = "0.1.0"
+authors = ["PENGUINLIONG <admin@penguinliong.moe>"]
+description = "Light-weight plug-in web framework for all variants of Hyper."
+license = "MIT"
+repository = "https://github.com/PENGUINLIONG/writium"
+
+[dependencies]
+futures = "0.1"
+hyper = "0.11"
+log = "0.3"
+
+serde = "1.0"
+serde_json = "1.0"
+serde_qs = "0.3"
