@@ -25,5 +25,5 @@ Writus is a blog server based on Writium. Take a glance at the codes and you wil
 
 During the course of development of Writus, sister projects of writium are created:
 
-* [writium-cache]: Cache system for writium apps.
+* [writium-cache](https://github.com/PENGUINLIONG/writium-cache): Cache system for writium apps.
 * [writium-auth]: Authentication/Authorization interfaces for writium apps.
