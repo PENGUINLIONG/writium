@@ -113,7 +113,7 @@ impl Request {
                     path[1..].to_owned()
                 };
                 let iter = chars.split('/')
-                        .map(|x| x.to_string());
+                    .map(|x| x.to_string());
                 raw_rv.extend(iter);
             }
             // Protection for path traversal attack.
@@ -121,7 +121,7 @@ impl Request {
             for seg in raw_rv {
                 if seg == ".." {
                     rv.pop();
-                } else if seg == "." {
+                } else if seg == "." || seg == "" {
                 } else {
                     rv.push(seg);
                 }
